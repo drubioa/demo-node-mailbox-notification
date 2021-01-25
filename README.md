@@ -8,20 +8,18 @@ Language: English | [Español](docs/README-es-ES.md)
 This demo const of two parts:
 
 1. Firstly a node service that got an POST endpoint to control when use receive hypothetical mail, and send notification via socket to user. 
-2. On the other hand this service manages when the user read an email and change the pending mail count.
-
-3. On the other side there is a client sample web, with envelope icon with badge that shows pending to read emails.
+2. On the other side there is a client sample web, with envelope icon with badge that shows pending to read emails.
 
 This diagram shows us how app worked. Initially clients icon show have zero messages. When POST request call service, incremet number of pending to read meails, immediately mail icon update with new mail unread number.
 
-![diagram](./docs/diagram.jpg])
+![diagram](./docs/diagram.jpg)
 
 # Starting 🚀
 
 ## Requirements 📋
 You have two ways to run this applications:
 1. Use your local node.
-2. Ude docker container.
+2. Use docker container.
 
 ## Installation 🔧
 ### Node
