@@ -7,10 +7,10 @@ Idioma: [English](../README.md) | Español
 
 Esta prueba de concepto consta de dos partes:
 
-1. En primer lugar un servicio hecho en nodo con un endpoit POST que recibe un hipotético correo electrónico y notifica al destinatario de este correo por socket que tiene mensajes sin leer.
+1. En primer lugar un servicio hecho en nodo con un endpoint POST que recibe un hipotético correo electrónico y notifica al destinatario de este correo por socket que tiene mensajes sin leer.
 2. Por otra parte, en la web que visualiza el cliente se actualiza el icono del correo con un tag con los correos pendientes de leer.
 
-A contnuación podemos ver en el diagrama como funciona esta app. Inicialmente el icono del cliente muestra que tiene 0 mensajes sin leer. Cuando se realiza una llamada al servicio POST se incrementa inmediatamente el número de correos sin leer.
+A continuación podemos ver en el diagrama como funciona esta app. Inicialmente el icono del cliente muestra que tiene 0 mensajes sin leer. Cuando se realiza una llamada al servicio POST se incrementa inmediatamente el número de correos sin leer.
 
 ![diagram](../docs/diagram.jpg)
 
