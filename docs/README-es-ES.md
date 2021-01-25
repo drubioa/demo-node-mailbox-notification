@@ -25,29 +25,29 @@ Tienes dos formas de correr la aplicación:
 ### Node
 Efectúa el siguiente comando:
 
-``bash
+```bash
 npm install
 npm start
-``
+```
 
 ### Docker
 Via Docker:
 
-``bash
+```bash
 docker build -t <username>/demo-node-socker-mailbox .
-``
+```
 ## Test demo ⚙️
 
 1. Abre tu navegador en la siguiente dirección:
 
-``
+```
 http://localhost:8085
-``
+```
 
 Establecida la conexión por socket con el servidor podrás ver los corres pendientes en zero.
 
 2. Si realiza una petición rest de tipo `POST` podrás observar como en tiempo real se actualiza el número de mensajes de leer.
 
-``bash
+```bash
 curl --location --request POST 'localhost:8085/new-message?username=anonymous'
-``
+```

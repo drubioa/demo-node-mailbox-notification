@@ -25,29 +25,29 @@ You have two ways to run this applications:
 ### Node
 Run the following commands:
 
-``bash
+```bash
 npm install
 npm start
-``
+```
 
 ### Docker
 Via Docker:
 
-``bash
+```bash
 docker build -t <username>/demo-node-socker-mailbox .
-``
+```
 ## Test demo ⚙️
 
 1. Open a web in your browser with the next address:
 
-``
+```
 http://localhost:8085
-``
+```
 
 Stablished connection by socket with server, you  can see the pending to read mail in zero.
 
 2. If you make `POST` request via REST yo can add more pending send. You can see server not do more rest call, instead use websocket connection to update in real time changes.
 
-``bash
+```bash
 curl --location --request POST 'localhost:8085/new-message?username=anonymous'
-``
+```
